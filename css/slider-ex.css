@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding:50px 0;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.owl-item.active{
+    opacity: 0.5;
+}
+.owl-item.active.center{
+    opacity: 1;
+    z-index: 2;
+}
+.owl-item.active.center img{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.owl-stage-outer,
+.owl-satge,
+.owl-item{
+    height: 500px;
+}
+.main{
+    background-color: white;
+    text-align: center;
+  
+}
+.main_img{
+    margin-bottom: 20px;
+}   

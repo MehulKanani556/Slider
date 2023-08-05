@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial</title>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/slider-ex.css">
+</head>
+<body>
+        
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <div class="main">
+                <div class="main_img">
+                    <img src="Image/p1.avif " alt="">
+                </div>
+                <h2 class="testi_name"> Person Name</h2>
+                <p class="desig">Designation</p>
+                <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In placeat nobis iste nam blanditiis eveniet possimus vero accusamus? Delectus corporis eveniet voluptates? Voluptatum facere quod velit veniam voluptates facilis porro.</p>
+            </div>
+        </div>
+       
+    </div>
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                autowidth:true,
+                nav:true,
+                center:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3
+                    },
+                    1000:{
+                        items:3
+                    }
+                }
+            })
+
+        });
+    </script>
+</body>
+</html>

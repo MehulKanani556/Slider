@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider Function</title>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/slide-function.css">
+</head>
+<body>
+    
+<!-- <div class="owl-carousel owl-theme">
+    <div class="item" data-merge="1">
+        <img src="Image/1.webp" alt="">
+    </div>
+    <div class="item" data-merge="2">
+        <img src="Image/2.webp" alt="">
+    </div>
+    <div class="item" data-merge="1">
+        <img src="Image/3.webp" alt="">
+    </div>
+    <div class="item" data-merge="1">
+        <img src="Image/4.webp" alt="">
+    </div>
+    <div class="item" data-merge="1">
+        <img src="Image/5.jpg" alt="">
+    </div>
+</div> -->
+    <div class="container">
+    <div class="owl-carousel owl-theme main">
+        <div class="item" data-merge="1" >
+            <div class="testi_main">
+                <div class="testi_img">
+                    <img src="image/p1.avif" alt="">
+                </div>
+                <h2 class="Testi_name">TESTIMOIAL NAME</h2>
+                <p class="desig">Designation</p>
+                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam sed consequuntur commodi assumenda repellendus voluptates, error rerum tenetur ut?</p>
+            </div>
+        </div>
+        <!-- ........................................................... -->
+        <div class="item" data-merge="1">
+            <div class="testi_main">
+                <div class="testi_img">
+                    <img src="image/p2.avif" alt="">
+                </div>
+                <h2 class="Testi_name">TESTIMOIAL NAME</h2>
+                <p class="desig">Designation</p>
+                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam sed consequuntur commodi assumenda repellendus voluptates, error rerum tenetur ut?</p>
+            </div>
+        </div>
+        <!-- .............................................................. -->
+        <div class="item" data-merge="1">
+            <div class="testi_main">
+                <div class="testi_img">
+                    <img src="image/p3.avif" alt="">
+                </div>
+                <h2 class="Testi_name">TESTIMOIAL NAME</h2>
+                <p class="desig">Designation</p>
+                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam sed consequuntur commodi assumenda repellendus voluptates, error rerum tenetur ut?</p>
+            </div>
+        </div>
+        <!-- .............................................................. -->
+        <div class="item" data-merge="1">
+            <div class="testi_main">
+                <div class="testi_img">
+                    <img src="image/p4.webp" alt="">
+                </div>
+                <h2 class="Testi_name">TESTIMOIAL NAME</h2>
+                <p class="desig">Designation</p>
+                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam sed consequuntur commodi assumenda repellendus voluptates, error rerum tenetur ut?</p>
+            </div>
+        </div>
+        <!-- .............................................................. -->
+        <div class="item" data-merge="1">
+            <div class="testi_main">
+                <div class="testi_img">
+                    <img src="image/p5.jpg" alt="">
+                </div>
+                <h2 class="Testi_name">TESTIMOIAL NAME</h2>
+                <p class="desig">Designation</p>
+                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam sed consequuntur commodi assumenda repellendus voluptates, error rerum tenetur ut?</p>
+            </div>
+        </div>
+        <!-- .............................................................. -->
+        
+
+    </div>
+</div>
+
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:20,
+                autowidth:true,
+                nav:true,
+                // mouseDrag:false,
+                // touchDrag:false,
+                // pullDrag:false,
+                // freeDrag:false,
+                // dots:false,
+                
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3
+                    },
+                    1000:{
+                        items:3
+                    }
+                }
+            })
+        });
+    </script>
+</body>
+</html>
